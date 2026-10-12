@@ -21,12 +21,47 @@ ROOT = Path(__file__).resolve().parent
 
 # ── 87 个名字（全部王姓三字名）──
 NAMES = [
-    # 已定名 / 讨论候选（34）
+    # 已定名 / 讨论候选（34 + 新增 2026-09-15 牧简之悠融合系列）
     '王斯卯', '王元一', '王驰元', '王元午', '王元壹', '王元正', '王太一',
     '王齐一', '王惟一', '王若朴', '王虚白', '王抱朴', '王善渊', '王得一',
     '王守一', '王道一', '王中和', '王知白', '王和光', '王玄一', '王致一',
     '王天一', '王心一', '王培元', '王善元', '王得元', '王斯元', '王元本',
     '王元玄', '王元方', '王川元', '王抱元', '王春元', '王聿午',
+    '王牧之', '王简一', '王牧一', '王悠之', '王简之', '王牧悠', '王简悠',
+    # 传承向 2026-09-24（承老大「王斯卯」一西一东 + 生肖嵌字结构，老二取丙午马年「午」）
+    '王斯午', '王恒午', '王亘午', '王宙午', '王玄午', '王周午', '王常午',
+    '王永午', '王仲午', '王双午', '王乙午', '王又午',
+    '王午恒', '王午玄', '王午斯',
+    # 五劫向 2026-09-24（道教五劫说：卯=上皇住劫 / 午=开皇住劫，俱为住劫）
+    # A 开皇本劫（老二本劫）：劫名「开」+ 五气「元阳之气」
+    '王午开', '王开午', '王午阳', '王阳午', '王午元',
+    # B 上皇本劫（老大本劫）：五气「中灵之气」
+    '王午中', '王午灵',
+    # C 住劫之性 + 劫名本字
+    '王午住', '王午皇', '王午上',
+    # D 延康本劫（爸妈本劫，酉）：劫名「延」「康」—— 2026-09-24 老板补充：夫妻同属酉鸡
+    '王午康', '王康午', '王延午', '王午延',
+    # E 其余劫名：龙汉「龙」「汉」/ 赤明「赤」「明」
+    '王午龙', '王龙午', '王午汉', '王汉午', '王午明', '王明午', '王午赤', '王赤午',
+    # 中药名向 2026-09-28（药典2020版83种毒性中药已全部筛除；β=灰名单另标）
+    # 清雅型
+    '王白芷', '王青黛', '王白薇', '王紫萱', '王桔梗', '王玉竹',
+    '王合欢', '王连翘', '王辛夷', '王石斛', '王雪见',
+    # 端方型
+    '王苁蓉', '王厚朴', '王茯苓', '王灵芝', '王紫苏', '王景天', '王长卿',
+    # 生肖忌用字根，保留待权衡
+    '王忍冬', '王远志',
+    # ── 兄弟对仗向 2026-09-28（三个接点：木字桥 / 午火意象 / 元一呼应）──
+    # 接点 B「木字桥」：卯的五行=木，草药名天然属木（艹/木字旁）
+    '王木香', '王苏木',
+    # 接点 C「五行相生」：卯(木)生午(火)，取火/日/明意象
+    '王决明', '王丹参', '王赤芝',
+    # 呼应「王元一」的元 / 数字对仗
+    '王元参', '王百合',
+    # 生肖马字旁（承「王驰元」偏旁藏生肖手法）
+    '王马兰',
+    # 老板提名 2026-10-12（经典出处向：中庸 / 庄子·则阳+周易·讼 / 离骚+幼学琼林 / 抱朴子·广譬）
+    '王斯昭', '王饮和', '王云启', '王谷安',
     # 女孩名（53，出自《女孩名字-王.xlsx》）
     '王瑾翕', '王简盈', '王简饶', '王简傲', '王岁安', '王浅素', '王乔幽',
     '王鹿芩', '王安晓', '王月白', '王唯月', '王子鸢', '王沐恩', '王颂恩',
@@ -45,18 +80,52 @@ KNOWN_STROKES = {
     '朴': 16, '虚': 12, '白': 5, '抱': 9, '善': 12, '渊': 12, '得': 11,
     '守': 6, '道': 16, '中': 4, '和': 8, '知': 8, '光': 6, '玄': 5,
     '致': 9, '天': 4, '心': 4, '培': 11, '本': 5, '川': 3, '春': 9,
+    # 2026-09-15 新增（kangxizidian.org 双源验证）
+    '牧': 8, '简': 18, '之': 4, '悠': 11,
+    # 2026-09-24 传承向新增（双源验证，双/乙 见 OVERRIDE）
+    '恒': 10, '亘': 6, '宙': 8, '周': 8, '常': 11, '永': 5,
+    '仲': 6, '又': 2, '双': 18, '乙': 1,
+    # 2026-09-24 五劫向新增（kangxi 源；阳 经 WebSearch 多源印证 = 陽 17画）
+    '开': 12, '阳': 17, '皇': 9, '住': 7, '灵': 24, '上': 3, '中': 4,
+    # 2026-09-24 延康/龙汉/赤明劫名（延/汉 经 WebSearch 多源印证：延=康熙7画、汉=繁体漢15画）
+    '康': 11, '延': 7, '龙': 16, '汉': 15, '赤': 7, '明': 8,
+    # 2026-09-28 中药名向（kangxizidian.org + zidian.qianp.com 双源抓取实测）
+    # 注：黛 实测 17 画（非直觉的 16）——黑12+代5，以抓取为准
+    '青': 8, '黛': 17, '芷': 10, '薇': 19, '紫': 11, '萱': 15,
+    '桔': 10, '梗': 11, '玉': 5, '竹': 6, '合': 6, '欢': 22,
+    '连': 14, '翘': 18, '辛': 7, '夷': 6, '石': 5, '斛': 11,
+    '雪': 11, '见': 7, '苁': 17, '蓉': 16, '厚': 9, '茯': 12,
+    '苓': 11, '芝': 10, '苏': 22, '景': 12, '长': 8, '卿': 11,
+    '忍': 7, '冬': 5, '远': 17, '志': 7,
+    # 2026-09-28 兄弟对仗向（kangxizidian.org 实测；千篇源当日限流未返回）
+    # 兰 23 = 繁体蘭（同「汉15=漢」口径）；马 10 = 繁体馬；参 11 = 參
+    '木': 4, '香': 9, '决': 8, '丹': 4, '参': 11, '百': 6, '兰': 23, '马': 10,
+    # 2026-10-12 老板提名四名（实测：云 12 = 繁体雲、启 11 = 繁体啟，同「汉15=漢」口径）
+    # 饮 13 = 康熙字典【戌集下】【食】飮·康熙筆画13·部外筆画4（食部按完整 9 画计；
+    #   kangxizidian.org 与多个姓名学源印证一致，12 画为少数派字形计法）
+    '昭': 9, '饮': 13, '云': 12, '启': 11, '谷': 7, '安': 6,
 }
 
 # 姓名学约定笔画覆盖（均经 WebSearch 双源查证，2026-08-24）：
 # 朴: 起名语境义为「质朴」(樸) → 按繁体 樸 16 画（本字 朴 = 6 画）
 # 玄: 康熙字典玄部 5 画（qianp 抓取 9 画为误）
 # 婳: 按繁体 嫿 计 15 画（女3+畫12；简体 婳 11 画）
-OVERRIDE = {'朴': 16, '玄': 5, '婳': 15}
+# 双: 三才五格以康熙为准 → 按繁体 雙 18 画（简体 双 = 4 画；2026-09-24 WebSearch 双源查证）
+# 乙: 康熙乙部 1 画（kangxizidian 页面无笔画字段，qianp = 1 采信）
+OVERRIDE = {'朴': 16, '玄': 5, '婳': 15, '双': 18, '乙': 1}
 
 # ── 81 数理吉凶分类（与 2026-08-17 会话口径一致）──
+# 2026-09-24 修复：4 与 43 原先不在任何集合，落到 else 分支被默认判「吉」——
+# 权威 81 数理表两者皆为凶（4=凶变/短命之数，与 9/19/20/34/44 同组；43=散财破产），
+# 且「王午上」外格 4 因此虚高。按本表「各家有出入→分歧」的既有口径，二者归入 FENQI。
+# JI 为「吉」档（非大吉）：8、17 等落在这一档是该口径的原意，不可并入 DAJI。
 DAJI = {1, 3, 5, 6, 7, 11, 13, 15, 16, 18, 21, 23, 24, 25, 29, 31, 32,
         33, 35, 37, 39, 41, 45, 47, 48, 52, 57, 61, 63, 65, 67, 68, 81}
-FENQI = {2, 9, 19, 20, 27, 28, 34, 36, 40, 44, 50, 54, 56, 58, 60, 62,
+JI = {8, 17}
+# 2026-09-28 新增 38：中药名向「王灵芝」总格 38 触发未分类报错（该报错正是 09-24 修复的预期行为）。
+# 38 =「磨铁成针」半吉——各家标注有出入（熊崎式定半吉 / 有流派标「凶带吉」「吉中带凶」），
+# 按本表「各家有出入→分歧」的既有口径归入 FENQI，不并入 DAJI。
+FENQI = {2, 4, 9, 19, 20, 27, 28, 34, 36, 38, 40, 43, 44, 50, 54, 56, 58, 60, 62,
          64, 66, 69, 70, 72, 74, 76, 78}
 XIONG = {10, 12, 14, 22, 26, 30, 42, 46, 49, 53, 55, 59, 71, 73, 75, 77, 79, 80}
 
@@ -88,8 +157,10 @@ def ke(a, b):  # a 克 b?
     return (a, b) in [('木', '土'), ('土', '水'), ('水', '火'), ('火', '金'), ('金', '木')]
 
 # 生僻字 / 多音字（音形义扣分用，口径与会话一致）
-RARE = {'翕', '芩', '婳', '颀', '徽', '槿'}
-DUOYIN = {'得', '和', '正'}
+# 2026-09-28 增补：苁/斛 生僻；桔(jié/jú)、翘(qiáo/qiào)、长(cháng/zhǎng) 多音
+# 2026-10-12 增补：饮（yǐn 喝水 / yìn 使饮——「饮和」词典口径作 yìn，点名场景两读皆现，属需纠正的读音）
+RARE = {'翕', '芩', '婳', '颀', '徽', '槿', '苁', '斛'}
+DUOYIN = {'得', '和', '正', '桔', '翘', '长', '饮'}
 
 # 名字自带典故/出处/生肖彩蛋（音形义 +1，与网页 NAMES 的 eggs 对齐）
 EGG_BONUS = {
@@ -99,6 +170,26 @@ EGG_BONUS = {
     '王齐一', '王惟一', '王若朴', '王虚白', '王抱朴', '王善渊', '王得一',
     '王守一', '王道一', '王中和', '王知白', '王和光', '王玄一', '王致一',
     '王培元', '王善元', '王元方', '王心一',
+    # 2026-09-15 牧简之悠系列（典故彩蛋 +1）
+    '王牧之', '王简一', '王简之', '王悠之',
+    # 2026-09-24 传承向（生肖嵌字 / 典故 / 兄弟对仗，+1）
+    '王斯午', '王恒午', '王亘午', '王周午', '王常午',
+    '王午恒', '王午玄', '王午斯',
+    # 2026-09-24 五劫向（道教五劫：卯=上皇 / 午=开皇，俱为住劫，典故 +1）
+    '王午开', '王开午', '王午阳', '王阳午', '王午元',
+    '王午中', '王午灵', '王午住', '王午皇', '王午上',
+    '王午康', '王康午', '王延午', '王午延',
+    '王午龙', '王龙午', '王午汉', '王汉午', '王午明', '王明午',
+    # 2026-09-28 中药名向（每个都有可考的命名由来/典故，+1）
+    '王白芷', '王青黛', '王白薇', '王紫萱', '王桔梗', '王玉竹',
+    '王合欢', '王连翘', '王辛夷', '王石斛', '王雪见',
+    '王苁蓉', '王厚朴', '王茯苓', '王灵芝', '王紫苏', '王景天', '王长卿',
+    '王忍冬', '王远志',
+    # 2026-09-28 兄弟对仗向（典故彩蛋 +1）
+    '王木香', '王苏木', '王决明', '王丹参', '王赤芝',
+    '王元参', '王百合', '王马兰',
+    # 2026-10-12 老板提名四名（经典出处逐字可考，+1）
+    '王斯昭', '王饮和', '王云启', '王谷安',
 }
 
 # 已定名/已评分的会话记录（保留原值，不做公式覆盖）
@@ -114,12 +205,21 @@ RECORDED = {
 }
 
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
-                      '(KHTML, like Gecko) Chrome/120.0 Safari/537.36'})
-    with urllib.request.urlopen(req, timeout=15) as r:
-        return r.read().decode('utf-8', errors='replace')
+def fetch(url, retries=3):
+    # 抓取源偶发抽风（返回错误页/超时），重试避免整个批次因单字中断
+    last = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                              '(KHTML, like Gecko) Chrome/120.0 Safari/537.36'})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                return r.read().decode('utf-8', errors='replace')
+        except Exception as e:
+            last = e
+            if attempt < retries - 1:
+                time.sleep(1.5 * (attempt + 1))
+    raise last
 
 
 def get_stroke_kangxi(ch):
@@ -167,35 +267,68 @@ def get_stroke(ch):
     return a if a is not None else b
 
 
+def load_stroke_cache():
+    """从已有 score_data.js 复用笔画，避免每次全量重抓（源会限流）。"""
+    path = ROOT / 'score_data.js'
+    if not path.exists():
+        return {}
+    try:
+        text = path.read_text(encoding='utf-8')
+        data = json.loads(text[text.index('{'):text.rindex('}') + 1])
+    except Exception:
+        return {}
+    cache = {}
+    for name, v in data.items():
+        st = v.get('strokes') or []
+        for ch, n in zip(name, st):
+            if isinstance(n, int):
+                cache[ch] = n
+    return cache
+
+
 def main():
     chars = sorted(set(''.join(NAMES)))
     strokes = {}
-    print(f'共 {len(chars)} 个不重复字，开始抓取...')
+    cache = load_stroke_cache()
+    todo = [ch for ch in chars if ch not in cache]
+    print(f'共 {len(chars)} 个不重复字：缓存命中 {len(chars) - len(todo)}，需抓取 {len(todo)}')
+    strokes.update({ch: cache[ch] for ch in chars if ch in cache})
     failed = []
-    for i, ch in enumerate(chars):
-        try:
-            n = get_stroke(ch)
-            strokes[ch] = n
-            if n is None:
-                failed.append(ch)
-                print(f'  [{i+1}/{len(chars)}] {ch}: 页面未找到笔画')
-            else:
-                print(f'  [{i+1}/{len(chars)}] {ch}: {n}')
-        except Exception as e:
+    for i, ch in enumerate(todo):
+        n = None
+        # 抓取源偶发返回错误页（200 但无笔画字段），重试整字查询
+        for attempt in range(3):
+            try:
+                n = get_stroke(ch)
+            except Exception:
+                n = None
+            if n is not None:
+                break
+            if attempt < 2:
+                time.sleep(2.0 * (attempt + 1))
+        strokes[ch] = n
+        if n is None:
             failed.append(ch)
-            print(f'  [{i+1}/{len(chars)}] {ch}: ERROR {type(e).__name__}')
+            print(f'  [{i+1}/{len(todo)}] {ch}: 页面未找到笔画（重试 3 次仍失败）')
+        else:
+            print(f'  [{i+1}/{len(todo)}] {ch}: {n}')
         time.sleep(0.35)
 
-    # 验证已知笔画
-    for ch, want in KNOWN_STROKES.items():
+    # 已验证笔画作兜底：抓取失败/不一致时用权威值，不让网络抽风中断整批
+    for ch, want in {**KNOWN_STROKES, **OVERRIDE}.items():
         got = strokes.get(ch)
         if got != want:
-            print(f'⚠️ 笔画校验不符: {ch} 应 {want} 得 {got}')
+            note = '补用已验证值' if ch in failed or got is None else '以已知值为准'
+            print(f'⚠️ 笔画不一致: {ch} 抓取={got} 已知={want} → {note}')
+            strokes[ch] = want
+            if ch in failed:
+                failed.remove(ch)
 
     if failed:
-        print('⚠️ 抓取失败:', failed)
+        print('⚠️ 抓取失败（无已验证值兜底）:', failed)
         sys.exit(1)
 
+    UNCLASSIFIED = set()
     scores = {}
     for name in NAMES:
         a, b, c = name[0], name[1], name[2]
@@ -210,9 +343,12 @@ def main():
 
         def cat(v):
             if v in DAJI: return '大吉'
+            if v in JI: return '吉'
             if v in FENQI: return '分歧⚠️'
             if v in XIONG: return '凶'
-            return '吉'
+            # 数理表未覆盖绝对不能默认判吉——2026-09-24 的「4/43 静默判吉」bug 即源于此
+            UNCLASSIFIED.add(v)
+            return '未分类'
 
         tags = {k: cat(v) for k, v in wuge.items()}
 
@@ -237,6 +373,9 @@ def main():
 
         def sc_ge(k, v):
             t = tags[k]
+            if t == '未分类':
+                raise SystemExit(f'❌ 数理 {v}（{name} {k}格）未归入吉凶表——'
+                                 f'请先在 DAJI/FENQI/XIONG 中定义，不可默认判吉')
             if k == '人':
                 return {'大吉': 19, '吉': 18, '分歧⚠️': 13, '凶': 8}[t]
             if k == '地':
@@ -310,6 +449,18 @@ def main():
     out = 'const SCORE_DATA = ' + json.dumps(scores, ensure_ascii=False, indent=1) + ';\n'
     (ROOT / 'score_data.js').write_text(out, encoding='utf-8')
     print(f'写入 score_data.js，共 {len(scores)} 个名字')
+
+    # index.html 用 <script src> 引 score_data.js，浏览器会缓存旧版 → 数据改了页面不更新。
+    # 打内容指纹：内容变才换版本号，避免无谓的 diff 噪音。
+    import hashlib
+    digest = hashlib.md5(out.encode('utf-8')).hexdigest()[:8]
+    html_path = ROOT / 'index.html'
+    html = html_path.read_text(encoding='utf-8')
+    new_html = re.sub(r'<script src="score_data\.js(?:\?v=[0-9a-f]+)?"></script>',
+                      f'<script src="score_data.js?v={digest}"></script>', html)
+    if new_html != html:
+        html_path.write_text(new_html, encoding='utf-8', newline='')
+        print(f'index.html 版本指纹 → {digest}')
 
     # 控制台总表
     print('\n名字 | 笔画 | 五格(天/人/地/外/总) | 三字五行 | 评分 | 档')
