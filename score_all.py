@@ -17,6 +17,14 @@ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 from pypinyin import lazy_pinyin, Style
 from pypinyin import pinyin as to_pinyin
 
+# 2026-10-13 踩坑（与 board_score.py 同源）：本机到 kangxizidian.org 的 IPv6 路由不通，
+# urllib 默认优先解析 IPv6，导致整批抓取挂死——强制 IPv4 后恢复正常。
+import socket
+_orig_getaddrinfo = socket.getaddrinfo
+def _ipv4_getaddrinfo(host, port, family=0, type=0, proto=0, flags=0):
+    return _orig_getaddrinfo(host, port, socket.AF_INET, type, proto, flags)
+socket.getaddrinfo = _ipv4_getaddrinfo
+
 ROOT = Path(__file__).resolve().parent
 
 # ── 87 个名字（全部王姓三字名）──
@@ -62,6 +70,9 @@ NAMES = [
     '王马兰',
     # 老板提名 2026-10-12（经典出处向：中庸 / 庄子·则阳+周易·讼 / 离骚+幼学琼林 / 抱朴子·广譬）
     '王斯昭', '王饮和', '王云启', '王谷安',
+    # 老板提名 2026-10-13（代办「寒假作业」10 名：豪放派 5 + 清幽派 5，引文已逐条网络核验）
+    '王瞰云', '王御纬', '王撼岳', '王啸风', '王决云',
+    '王挹江', '王枕风', '王浸阳', '王闻雨', '王鹤如',
     # 女孩名（53，出自《女孩名字-王.xlsx》）
     '王瑾翕', '王简盈', '王简饶', '王简傲', '王岁安', '王浅素', '王乔幽',
     '王鹿芩', '王安晓', '王月白', '王唯月', '王子鸢', '王沐恩', '王颂恩',
@@ -104,6 +115,12 @@ KNOWN_STROKES = {
     # 饮 13 = 康熙字典【戌集下】【食】飮·康熙筆画13·部外筆画4（食部按完整 9 画计；
     #   kangxizidian.org 与多个姓名学源印证一致，12 画为少数派字形计法）
     '昭': 9, '饮': 13, '云': 12, '启': 11, '谷': 7, '安': 6,
+    # 2026-10-13 老板提名「寒假作业」10 名用字（kangxizidian.org 专业版实测，浏览器直取）
+    #   啸 16：康熙页眉计 15（部外12）vs 条目正文「嘯字十六畫」——姓名学通行口径为
+    #   口3+部外13=16（与「肃=繁体13」算术自洽），取名用字按姓名学口径取 16
+    '瞰': 17, '撼': 17, '啸': 16, '挹': 11, '枕': 8, '浸': 11, '岳': 8, '雨': 8, '江': 7,
+    # 以下取自十二典轮已验证缓存（classics/strokes_cache.json，同康熙口径）：
+    '御': 11, '纬': 15, '鹤': 21, '如': 6, '风': 9, '闻': 14,
 }
 
 # 姓名学约定笔画覆盖（均经 WebSearch 双源查证，2026-08-24）：
@@ -159,7 +176,8 @@ def ke(a, b):  # a 克 b?
 # 生僻字 / 多音字（音形义扣分用，口径与会话一致）
 # 2026-09-28 增补：苁/斛 生僻；桔(jié/jú)、翘(qiáo/qiào)、长(cháng/zhǎng) 多音
 # 2026-10-12 增补：饮（yǐn 喝水 / yìn 使饮——「饮和」词典口径作 yìn，点名场景两读皆现，属需纠正的读音）
-RARE = {'翕', '芩', '婳', '颀', '徽', '槿', '苁', '斛'}
+# 2026-10-13 增补：瞰、挹（老板提名「寒假作业」名字中的冷字，日常认读书写成本高）
+RARE = {'翕', '芩', '婳', '颀', '徽', '槿', '苁', '斛', '瞰', '挹'}
 DUOYIN = {'得', '和', '正', '桔', '翘', '长', '饮'}
 
 # 名字自带典故/出处/生肖彩蛋（音形义 +1，与网页 NAMES 的 eggs 对齐）
@@ -190,6 +208,9 @@ EGG_BONUS = {
     '王元参', '王百合', '王马兰',
     # 2026-10-12 老板提名四名（经典出处逐字可考，+1）
     '王斯昭', '王饮和', '王云启', '王谷安',
+    # 2026-10-13 老板提名「寒假作业」10 名（引文经维基文库四库本等逐条核验，+1）
+    '王瞰云', '王御纬', '王撼岳', '王啸风', '王决云',
+    '王挹江', '王枕风', '王浸阳', '王闻雨', '王鹤如',
 }
 
 # 已定名/已评分的会话记录（保留原值，不做公式覆盖）
@@ -290,9 +311,14 @@ def main():
     chars = sorted(set(''.join(NAMES)))
     strokes = {}
     cache = load_stroke_cache()
-    todo = [ch for ch in chars if ch not in cache]
-    print(f'共 {len(chars)} 个不重复字：缓存命中 {len(chars) - len(todo)}，需抓取 {len(todo)}')
+    # 2026-10-13：已验证笔画（KNOWN_STROKES/OVERRIDE）直接采用、不再重复抓取
+    #（慢网络日抓取会长时间卡死；如与抓取值有出入，由下方一致性检查兜底报警）
+    todo = [ch for ch in chars if ch not in cache
+            and ch not in KNOWN_STROKES and ch not in OVERRIDE]
+    print(f'共 {len(chars)} 个不重复字：缓存+已验证 {len(chars) - len(todo)}，需抓取 {len(todo)}')
     strokes.update({ch: cache[ch] for ch in chars if ch in cache})
+    strokes.update({ch: KNOWN_STROKES[ch] for ch in chars if ch in KNOWN_STROKES})
+    strokes.update({ch: OVERRIDE[ch] for ch in chars if ch in OVERRIDE})
     failed = []
     for i, ch in enumerate(todo):
         n = None
