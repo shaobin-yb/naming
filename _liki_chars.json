@@ -1,0 +1,1721 @@
+{
+ "一": {
+  "char": "一",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 1,
+  "pinyin": "yī",
+  "tone": 1,
+  "radical": "一"
+ },
+ "上": {
+  "char": "上",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 3,
+  "pinyin": "shàng,shǎng,shang",
+  "tone": 4,
+  "radical": "⺊"
+ },
+ "东": {
+  "char": "东",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 5,
+  "pinyin": "dōng",
+  "tone": 1,
+  "radical": "一"
+ },
+ "中": {
+  "char": "中",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 4,
+  "pinyin": "zhōng,zhòng",
+  "tone": 1,
+  "radical": "丨"
+ },
+ "丹": {
+  "char": "丹",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 4,
+  "pinyin": "dān",
+  "tone": 1,
+  "radical": "丿"
+ },
+ "之": {
+  "char": "之",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 3,
+  "pinyin": "zhī",
+  "tone": 1,
+  "radical": "丶"
+ },
+ "乔": {
+  "char": "乔",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 6,
+  "pinyin": "qiáo",
+  "tone": 2,
+  "radical": "丿"
+ },
+ "乙": {
+  "char": "乙",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 1,
+  "pinyin": "yǐ",
+  "tone": 3,
+  "radical": "乛"
+ },
+ "乾": {
+  "char": "乾",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 11,
+  "pinyin": "qián,gān",
+  "tone": 2,
+  "radical": "龺、乙"
+ },
+ "云": {
+  "char": "云",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 4,
+  "pinyin": "yún",
+  "tone": 2,
+  "radical": "一"
+ },
+ "住": {
+  "char": "住",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 7,
+  "pinyin": "zhù",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "佩": {
+  "char": "佩",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 8,
+  "pinyin": "pèi",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "元": {
+  "char": "元",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 4,
+  "pinyin": "yuán",
+  "tone": 2,
+  "radical": "一"
+ },
+ "光": {
+  "char": "光",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 6,
+  "pinyin": "guāng",
+  "tone": 1,
+  "radical": "⺌"
+ },
+ "兰": {
+  "char": "兰",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 5,
+  "pinyin": "lán",
+  "tone": 2,
+  "radical": "丷"
+ },
+ "决": {
+  "char": "决",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 6,
+  "pinyin": "jué",
+  "tone": 2,
+  "radical": "冫"
+ },
+ "凯": {
+  "char": "凯",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 8,
+  "pinyin": "kǎi",
+  "tone": 3,
+  "radical": "几"
+ },
+ "午": {
+  "char": "午",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 4,
+  "pinyin": "wǔ",
+  "tone": 3,
+  "radical": "丿、十"
+ },
+ "卯": {
+  "char": "卯",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 5,
+  "pinyin": "mǎo",
+  "tone": 3,
+  "radical": "卩"
+ },
+ "厚": {
+  "char": "厚",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 9,
+  "pinyin": "hòu",
+  "tone": 4,
+  "radical": "厂"
+ },
+ "参": {
+  "char": "参",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 8,
+  "pinyin": "cān,shēn,cēn,sān",
+  "tone": 1,
+  "radical": "厶"
+ },
+ "又": {
+  "char": "又",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 2,
+  "pinyin": "yòu",
+  "tone": 4,
+  "radical": "又"
+ },
+ "启": {
+  "char": "启",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 7,
+  "pinyin": "qǐ",
+  "tone": 3,
+  "radical": "户"
+ },
+ "和": {
+  "char": "和",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 8,
+  "pinyin": "hé,hè,huò,huó,hú",
+  "tone": 2,
+  "radical": "禾"
+ },
+ "啸": {
+  "char": "啸",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 11,
+  "pinyin": "xiào",
+  "tone": 4,
+  "radical": "口"
+ },
+ "善": {
+  "char": "善",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 12,
+  "pinyin": "shàn",
+  "tone": 4,
+  "radical": "口"
+ },
+ "嘉": {
+  "char": "嘉",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 14,
+  "pinyin": "jiā",
+  "tone": 1,
+  "radical": "士"
+ },
+ "国": {
+  "char": "国",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 8,
+  "pinyin": "guó",
+  "tone": 2,
+  "radical": "囗"
+ },
+ "培": {
+  "char": "培",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 11,
+  "pinyin": "péi",
+  "tone": 2,
+  "radical": "土"
+ },
+ "壹": {
+  "char": "壹",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 12,
+  "pinyin": "yī",
+  "tone": 1,
+  "radical": "士"
+ },
+ "天": {
+  "char": "天",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 4,
+  "pinyin": "tiān",
+  "tone": 1,
+  "radical": "一"
+ },
+ "太": {
+  "char": "太",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 4,
+  "pinyin": "tài",
+  "tone": 4,
+  "radical": "大"
+ },
+ "夷": {
+  "char": "夷",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 6,
+  "pinyin": "yí",
+  "tone": 2,
+  "radical": "一"
+ },
+ "如": {
+  "char": "如",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 6,
+  "pinyin": "rú",
+  "tone": 2,
+  "radical": "女"
+ },
+ "子": {
+  "char": "子",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 3,
+  "pinyin": "zǐ,·zi",
+  "tone": 5,
+  "radical": "子"
+ },
+ "宁": {
+  "char": "宁",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 5,
+  "pinyin": "níng,nìng",
+  "tone": 2,
+  "radical": "宀"
+ },
+ "宇": {
+  "char": "宇",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 6,
+  "pinyin": "yǔ",
+  "tone": 3,
+  "radical": "宀"
+ },
+ "安": {
+  "char": "安",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 6,
+  "pinyin": "ān",
+  "tone": 1,
+  "radical": "宀"
+ },
+ "岳": {
+  "char": "岳",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 8,
+  "pinyin": "yuè",
+  "tone": 4,
+  "radical": "山"
+ },
+ "峻": {
+  "char": "峻",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 10,
+  "pinyin": "jùn",
+  "tone": 4,
+  "radical": "山"
+ },
+ "川": {
+  "char": "川",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 3,
+  "pinyin": "chuān",
+  "tone": 1,
+  "radical": "丿"
+ },
+ "常": {
+  "char": "常",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 11,
+  "pinyin": "cháng",
+  "tone": 2,
+  "radical": "巾"
+ },
+ "康": {
+  "char": "康",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 11,
+  "pinyin": "kāng",
+  "tone": 1,
+  "radical": "广"
+ },
+ "延": {
+  "char": "延",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 6,
+  "pinyin": "yán",
+  "tone": 2,
+  "radical": "廴"
+ },
+ "开": {
+  "char": "开",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 4,
+  "pinyin": "kāi",
+  "tone": 1,
+  "radical": "一"
+ },
+ "得": {
+  "char": "得",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 11,
+  "pinyin": "dé,de,děi",
+  "tone": 2,
+  "radical": "彳"
+ },
+ "德": {
+  "char": "德",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 15,
+  "pinyin": "dé",
+  "tone": 2,
+  "radical": "彳"
+ },
+ "心": {
+  "char": "心",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 4,
+  "pinyin": "xīn",
+  "tone": 1,
+  "radical": "心"
+ },
+ "怀": {
+  "char": "怀",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 7,
+  "pinyin": "huái",
+  "tone": 2,
+  "radical": "忄"
+ },
+ "御": {
+  "char": "御",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 12,
+  "pinyin": "yù",
+  "tone": 4,
+  "radical": "彳"
+ },
+ "思": {
+  "char": "思",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 9,
+  "pinyin": "sī,sāi",
+  "tone": 1,
+  "radical": "田"
+ },
+ "恒": {
+  "char": "恒",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 9,
+  "pinyin": "héng",
+  "tone": 2,
+  "radical": "忄"
+ },
+ "悠": {
+  "char": "悠",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 11,
+  "pinyin": "yōu",
+  "tone": 1,
+  "radical": "心"
+ },
+ "惟": {
+  "char": "惟",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 11,
+  "pinyin": "wéi",
+  "tone": 2,
+  "radical": "忄"
+ },
+ "懿": {
+  "char": "懿",
+  "frequency": "standard",
+  "wuxing": "土",
+  "stroke": 22,
+  "pinyin": "yì",
+  "tone": 4,
+  "radical": "心"
+ },
+ "扬": {
+  "char": "扬",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 6,
+  "pinyin": "yáng",
+  "tone": 2,
+  "radical": "扌"
+ },
+ "抱": {
+  "char": "抱",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 8,
+  "pinyin": "bào",
+  "tone": 4,
+  "radical": "扌"
+ },
+ "挹": {
+  "char": "挹",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 10,
+  "pinyin": "yì",
+  "tone": 4,
+  "radical": "扌"
+ },
+ "撼": {
+  "char": "撼",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 16,
+  "pinyin": "hàn",
+  "tone": 4,
+  "radical": "扌"
+ },
+ "文": {
+  "char": "文",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 4,
+  "pinyin": "wén",
+  "tone": 2,
+  "radical": "文"
+ },
+ "斯": {
+  "char": "斯",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 12,
+  "pinyin": "sī",
+  "tone": 1,
+  "radical": "斤"
+ },
+ "方": {
+  "char": "方",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 4,
+  "pinyin": "fāng",
+  "tone": 1,
+  "radical": "方"
+ },
+ "旗": {
+  "char": "旗",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 14,
+  "pinyin": "qí",
+  "tone": 2,
+  "radical": "方"
+ },
+ "既": {
+  "char": "既",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 9,
+  "pinyin": "jì",
+  "tone": 4,
+  "radical": "旡"
+ },
+ "明": {
+  "char": "明",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 8,
+  "pinyin": "míng",
+  "tone": 2,
+  "radical": "日"
+ },
+ "春": {
+  "char": "春",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 9,
+  "pinyin": "chūn",
+  "tone": 1,
+  "radical": "日"
+ },
+ "昭": {
+  "char": "昭",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 9,
+  "pinyin": "zhāo",
+  "tone": 1,
+  "radical": "日"
+ },
+ "显": {
+  "char": "显",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 9,
+  "pinyin": "xiǎn",
+  "tone": 3,
+  "radical": "日"
+ },
+ "景": {
+  "char": "景",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 12,
+  "pinyin": "jǐng,yǐng",
+  "tone": 3,
+  "radical": "日"
+ },
+ "望": {
+  "char": "望",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 11,
+  "pinyin": "wàng",
+  "tone": 4,
+  "radical": "王"
+ },
+ "木": {
+  "char": "木",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 4,
+  "pinyin": "mù",
+  "tone": 4,
+  "radical": "木"
+ },
+ "本": {
+  "char": "本",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 5,
+  "pinyin": "běn",
+  "tone": 3,
+  "radical": "木"
+ },
+ "朴": {
+  "char": "朴",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 6,
+  "pinyin": "pǔ,piáo,pò,pō",
+  "tone": 4,
+  "radical": "木"
+ },
+ "枕": {
+  "char": "枕",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 8,
+  "pinyin": "zhěn",
+  "tone": 3,
+  "radical": "木"
+ },
+ "柏": {
+  "char": "柏",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 9,
+  "pinyin": "bǎi,bó,bò",
+  "tone": 2,
+  "radical": "木"
+ },
+ "桔": {
+  "char": "桔",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 10,
+  "pinyin": "jú,jié",
+  "tone": 2,
+  "radical": "木"
+ },
+ "桢": {
+  "char": "桢",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 10,
+  "pinyin": "zhēn",
+  "tone": 1,
+  "radical": "木"
+ },
+ "梗": {
+  "char": "梗",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 11,
+  "pinyin": "gěng",
+  "tone": 3,
+  "radical": "木"
+ },
+ "棣": {
+  "char": "棣",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 12,
+  "pinyin": "dì,dài,tì",
+  "tone": 4,
+  "radical": "木"
+ },
+ "正": {
+  "char": "正",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 5,
+  "pinyin": "zhèng,zhēng",
+  "tone": 4,
+  "radical": "止"
+ },
+ "汉": {
+  "char": "汉",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 5,
+  "pinyin": "hàn",
+  "tone": 4,
+  "radical": "氵"
+ },
+ "江": {
+  "char": "江",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 6,
+  "pinyin": "jiāng",
+  "tone": 1,
+  "radical": "氵"
+ },
+ "浸": {
+  "char": "浸",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 10,
+  "pinyin": "jìn",
+  "tone": 4,
+  "radical": "氵"
+ },
+ "渊": {
+  "char": "渊",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 11,
+  "pinyin": "yuān",
+  "tone": 1,
+  "radical": "氵"
+ },
+ "灵": {
+  "char": "灵",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 7,
+  "pinyin": "líng",
+  "tone": 2,
+  "radical": "彐"
+ },
+ "玄": {
+  "char": "玄",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 5,
+  "pinyin": "xuán",
+  "tone": 2,
+  "radical": "亠"
+ },
+ "玉": {
+  "char": "玉",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 5,
+  "pinyin": "yù",
+  "tone": 4,
+  "radical": "玉"
+ },
+ "白": {
+  "char": "白",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 5,
+  "pinyin": "bái",
+  "tone": 2,
+  "radical": "白"
+ },
+ "瞰": {
+  "char": "瞰",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 16,
+  "pinyin": "kàn",
+  "tone": 4,
+  "radical": "目"
+ },
+ "硕": {
+  "char": "硕",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 11,
+  "pinyin": "shuò,shí",
+  "tone": 4,
+  "radical": "石"
+ },
+ "稷": {
+  "char": "稷",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 15,
+  "pinyin": "jì",
+  "tone": 4,
+  "radical": "禾"
+ },
+ "竹": {
+  "char": "竹",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 6,
+  "pinyin": "zhú",
+  "tone": 2,
+  "radical": "竹"
+ },
+ "紫": {
+  "char": "紫",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 12,
+  "pinyin": "zǐ",
+  "tone": 3,
+  "radical": "糸"
+ },
+ "纬": {
+  "char": "纬",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 7,
+  "pinyin": "wěi",
+  "tone": 3,
+  "radical": "纟"
+ },
+ "维": {
+  "char": "维",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 11,
+  "pinyin": "wéi",
+  "tone": 2,
+  "radical": "纟"
+ },
+ "舒": {
+  "char": "舒",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 12,
+  "pinyin": "shū",
+  "tone": 1,
+  "radical": "人"
+ },
+ "舟": {
+  "char": "舟",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 6,
+  "pinyin": "zhōu",
+  "tone": 1,
+  "radical": "舟"
+ },
+ "芝": {
+  "char": "芝",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 6,
+  "pinyin": "zhī",
+  "tone": 1,
+  "radical": "艹"
+ },
+ "苁": {
+  "char": "苁",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 7,
+  "pinyin": "cōng",
+  "tone": 1,
+  "radical": "艹"
+ },
+ "苏": {
+  "char": "苏",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 7,
+  "pinyin": "sū,sù",
+  "tone": 1,
+  "radical": "艹"
+ },
+ "苓": {
+  "char": "苓",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 8,
+  "pinyin": "líng",
+  "tone": 2,
+  "radical": "艹"
+ },
+ "若": {
+  "char": "若",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 8,
+  "pinyin": "ruò,rě",
+  "tone": 4,
+  "radical": "艹"
+ },
+ "茂": {
+  "char": "茂",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 8,
+  "pinyin": "mào",
+  "tone": 4,
+  "radical": "艹"
+ },
+ "茯": {
+  "char": "茯",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 9,
+  "pinyin": "fú",
+  "tone": 2,
+  "radical": "艹"
+ },
+ "萱": {
+  "char": "萱",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 12,
+  "pinyin": "xuān",
+  "tone": 1,
+  "radical": "艹"
+ },
+ "蓉": {
+  "char": "蓉",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 13,
+  "pinyin": "róng",
+  "tone": 2,
+  "radical": "艹"
+ },
+ "虚": {
+  "char": "虚",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 11,
+  "pinyin": "xū",
+  "tone": 1,
+  "radical": "虍"
+ },
+ "行": {
+  "char": "行",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 6,
+  "pinyin": "háng,hàng,héng,xíng",
+  "tone": 2,
+  "radical": "彳"
+ },
+ "衣": {
+  "char": "衣",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 6,
+  "pinyin": "yī,yì",
+  "tone": 1,
+  "radical": "衣"
+ },
+ "见": {
+  "char": "见",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 4,
+  "pinyin": "jiàn,xiàn",
+  "tone": 4,
+  "radical": "见"
+ },
+ "谷": {
+  "char": "谷",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 7,
+  "pinyin": "gǔ,yù",
+  "tone": 3,
+  "radical": "谷"
+ },
+ "赤": {
+  "char": "赤",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 7,
+  "pinyin": "chì",
+  "tone": 4,
+  "radical": "赤"
+ },
+ "辛": {
+  "char": "辛",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 7,
+  "pinyin": "xīn",
+  "tone": 1,
+  "radical": "辛"
+ },
+ "闻": {
+  "char": "闻",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 9,
+  "pinyin": "wén",
+  "tone": 2,
+  "radical": "门"
+ },
+ "阳": {
+  "char": "阳",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 6,
+  "pinyin": "yáng",
+  "tone": 2,
+  "radical": "阝"
+ },
+ "雨": {
+  "char": "雨",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 8,
+  "pinyin": "yǔ,yù",
+  "tone": 3,
+  "radical": "雨"
+ },
+ "雪": {
+  "char": "雪",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 11,
+  "pinyin": "xuě",
+  "tone": 3,
+  "radical": "雨"
+ },
+ "风": {
+  "char": "风",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 4,
+  "pinyin": "fēng,fěng",
+  "tone": 1,
+  "radical": "风"
+ },
+ "饮": {
+  "char": "饮",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 7,
+  "pinyin": "yǐn,yìn",
+  "tone": 3,
+  "radical": "饣"
+ },
+ "马": {
+  "char": "马",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 3,
+  "pinyin": "mǎ",
+  "tone": 3,
+  "radical": "马"
+ },
+ "驰": {
+  "char": "驰",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 6,
+  "pinyin": "chí",
+  "tone": 2,
+  "radical": "马"
+ },
+ "鹤": {
+  "char": "鹤",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 15,
+  "pinyin": "hè",
+  "tone": 4,
+  "radical": "鸟"
+ },
+ "齐": {
+  "char": "齐",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 6,
+  "pinyin": "qí,jì,zī,zhāi",
+  "tone": 2,
+  "radical": "齐"
+ },
+ "龙": {
+  "char": "龙",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 5,
+  "pinyin": "lóng",
+  "tone": 2,
+  "radical": "龙"
+ },
+ "三": {
+  "char": "三",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 3,
+  "pinyin": "sān",
+  "tone": 1,
+  "radical": "一"
+ },
+ "世": {
+  "char": "世",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 5,
+  "pinyin": "shì",
+  "tone": 4,
+  "radical": "一"
+ },
+ "业": {
+  "char": "业",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 5,
+  "pinyin": "yè",
+  "tone": 4,
+  "radical": "业"
+ },
+ "举": {
+  "char": "举",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 9,
+  "pinyin": "jǔ",
+  "tone": 3,
+  "radical": "丶"
+ },
+ "久": {
+  "char": "久",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 3,
+  "pinyin": "jiǔ",
+  "tone": 3,
+  "radical": "丿"
+ },
+ "义": {
+  "char": "义",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 3,
+  "pinyin": "yì",
+  "tone": 4,
+  "radical": "丶"
+ },
+ "乐": {
+  "char": "乐",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 5,
+  "pinyin": "lè,yuè,yào,lào",
+  "tone": 4,
+  "radical": "丿"
+ },
+ "九": {
+  "char": "九",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 2,
+  "pinyin": "jiǔ",
+  "tone": 3,
+  "radical": "丿"
+ },
+ "习": {
+  "char": "习",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 3,
+  "pinyin": "xí",
+  "tone": 2,
+  "radical": "乛"
+ },
+ "亮": {
+  "char": "亮",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 9,
+  "pinyin": "liàng",
+  "tone": 4,
+  "radical": "亠"
+ },
+ "亲": {
+  "char": "亲",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 9,
+  "pinyin": "qīn,qìng",
+  "tone": 1,
+  "radical": "立"
+ },
+ "人": {
+  "char": "人",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 2,
+  "pinyin": "rén",
+  "tone": 2,
+  "radical": "人"
+ },
+ "仁": {
+  "char": "仁",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 4,
+  "pinyin": "rén",
+  "tone": 2,
+  "radical": "亻"
+ },
+ "介": {
+  "char": "介",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 4,
+  "pinyin": "jiè",
+  "tone": 4,
+  "radical": "人"
+ },
+ "从": {
+  "char": "从",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 4,
+  "pinyin": "cóng",
+  "tone": 2,
+  "radical": "人"
+ },
+ "令": {
+  "char": "令",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 5,
+  "pinyin": "lìng,líng,lǐng",
+  "tone": 4,
+  "radical": "人"
+ },
+ "以": {
+  "char": "以",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 4,
+  "pinyin": "yǐ",
+  "tone": 3,
+  "radical": "人"
+ },
+ "仪": {
+  "char": "仪",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 5,
+  "pinyin": "yí",
+  "tone": 2,
+  "radical": "亻"
+ },
+ "仰": {
+  "char": "仰",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 6,
+  "pinyin": "yǎng,áng",
+  "tone": 3,
+  "radical": "亻"
+ },
+ "仲": {
+  "char": "仲",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 6,
+  "pinyin": "zhòng",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "任": {
+  "char": "任",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 6,
+  "pinyin": "rèn,rén",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "休": {
+  "char": "休",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 6,
+  "pinyin": "xiū,xǔ",
+  "tone": 1,
+  "radical": "亻"
+ },
+ "会": {
+  "char": "会",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 6,
+  "pinyin": "huì,kuài",
+  "tone": 4,
+  "radical": "人"
+ },
+ "伟": {
+  "char": "伟",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 6,
+  "pinyin": "wěi",
+  "tone": 3,
+  "radical": "亻"
+ },
+ "伦": {
+  "char": "伦",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 6,
+  "pinyin": "lún",
+  "tone": 2,
+  "radical": "亻"
+ },
+ "位": {
+  "char": "位",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 7,
+  "pinyin": "wèi",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "佑": {
+  "char": "佑",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 7,
+  "pinyin": "yòu",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "体": {
+  "char": "体",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 7,
+  "pinyin": "tǐ,tī",
+  "tone": 3,
+  "radical": "亻"
+ },
+ "余": {
+  "char": "余",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 7,
+  "pinyin": "yú",
+  "tone": 2,
+  "radical": "人"
+ },
+ "作": {
+  "char": "作",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 7,
+  "pinyin": "zuò,zuō",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "依": {
+  "char": "依",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 8,
+  "pinyin": "yī",
+  "tone": 1,
+  "radical": "亻"
+ },
+ "俊": {
+  "char": "俊",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 9,
+  "pinyin": "jùn",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "信": {
+  "char": "信",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 9,
+  "pinyin": "xìn,shēn",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "俭": {
+  "char": "俭",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 9,
+  "pinyin": "jiǎn",
+  "tone": 3,
+  "radical": "亻"
+ },
+ "修": {
+  "char": "修",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 9,
+  "pinyin": "xiū",
+  "tone": 1,
+  "radical": "亻"
+ },
+ "倾": {
+  "char": "倾",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 10,
+  "pinyin": "qīng",
+  "tone": 1,
+  "radical": "亻"
+ },
+ "健": {
+  "char": "健",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 10,
+  "pinyin": "jiàn",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "允": {
+  "char": "允",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 4,
+  "pinyin": "yǔn",
+  "tone": 3,
+  "radical": "儿"
+ },
+ "先": {
+  "char": "先",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 6,
+  "pinyin": "xiān",
+  "tone": 1,
+  "radical": "儿"
+ },
+ "克": {
+  "char": "克",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 7,
+  "pinyin": "kè",
+  "tone": 4,
+  "radical": "十"
+ },
+ "全": {
+  "char": "全",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 6,
+  "pinyin": "quán",
+  "tone": 2,
+  "radical": "人"
+ },
+ "兴": {
+  "char": "兴",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 6,
+  "pinyin": "xīng,xìng",
+  "tone": 1,
+  "radical": "八"
+ },
+ "养": {
+  "char": "养",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 9,
+  "pinyin": "yǎng",
+  "tone": 3,
+  "radical": "丷"
+ },
+ "冬": {
+  "char": "冬",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 5,
+  "pinyin": "dōng",
+  "tone": 1,
+  "radical": "夂"
+ },
+ "凝": {
+  "char": "凝",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 16,
+  "pinyin": "níng",
+  "tone": 2,
+  "radical": "冫"
+ },
+ "凤": {
+  "char": "凤",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 4,
+  "pinyin": "fèng",
+  "tone": 4,
+  "radical": "几"
+ },
+ "刚": {
+  "char": "刚",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 6,
+  "pinyin": "gāng",
+  "tone": 1,
+  "radical": "刂"
+ },
+ "力": {
+  "char": "力",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 2,
+  "pinyin": "lì",
+  "tone": 4,
+  "radical": "力"
+ },
+ "务": {
+  "char": "务",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 5,
+  "pinyin": "wù",
+  "tone": 4,
+  "radical": "夊"
+ },
+ "勤": {
+  "char": "勤",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 13,
+  "pinyin": "qín",
+  "tone": 2,
+  "radical": "力"
+ },
+ "化": {
+  "char": "化",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 4,
+  "pinyin": "huà,huā",
+  "tone": 4,
+  "radical": "亻"
+ },
+ "匡": {
+  "char": "匡",
+  "frequency": "standard",
+  "wuxing": "木",
+  "stroke": 6,
+  "pinyin": "kuāng",
+  "tone": 1,
+  "radical": "匚"
+ },
+ "匪": {
+  "char": "匪",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 10,
+  "pinyin": "fěi",
+  "tone": 3,
+  "radical": "匚"
+ },
+ "千": {
+  "char": "千",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 3,
+  "pinyin": "qiān",
+  "tone": 1,
+  "radical": "丿"
+ },
+ "华": {
+  "char": "华",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 6,
+  "pinyin": "huá,huā,huà",
+  "tone": 2,
+  "radical": "十"
+ },
+ "卓": {
+  "char": "卓",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 8,
+  "pinyin": "zhuó",
+  "tone": 2,
+  "radical": "十"
+ },
+ "南": {
+  "char": "南",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 9,
+  "pinyin": "nán,nā",
+  "tone": 2,
+  "radical": "十"
+ },
+ "博": {
+  "char": "博",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 12,
+  "pinyin": "bó",
+  "tone": 2,
+  "radical": "十"
+ },
+ "友": {
+  "char": "友",
+  "frequency": "common",
+  "wuxing": "土",
+  "stroke": 4,
+  "pinyin": "yǒu",
+  "tone": 3,
+  "radical": "又"
+ },
+ "发": {
+  "char": "发",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 5,
+  "pinyin": "fā,fà",
+  "tone": 1,
+  "radical": "又"
+ },
+ "取": {
+  "char": "取",
+  "frequency": "common",
+  "wuxing": "金",
+  "stroke": 8,
+  "pinyin": "qǔ",
+  "tone": 3,
+  "radical": "耳"
+ },
+ "可": {
+  "char": "可",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 5,
+  "pinyin": "kě,kè",
+  "tone": 3,
+  "radical": "口"
+ },
+ "合": {
+  "char": "合",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 6,
+  "pinyin": "hé,gě",
+  "tone": 2,
+  "radical": "人"
+ },
+ "吉": {
+  "char": "吉",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 6,
+  "pinyin": "jí",
+  "tone": 2,
+  "radical": "口"
+ },
+ "同": {
+  "char": "同",
+  "frequency": "common",
+  "wuxing": "火",
+  "stroke": 6,
+  "pinyin": "tóng,tòng",
+  "tone": 2,
+  "radical": "冂"
+ },
+ "名": {
+  "char": "名",
+  "frequency": "common",
+  "wuxing": "水",
+  "stroke": 6,
+  "pinyin": "míng",
+  "tone": 2,
+  "radical": "夕"
+ },
+ "君": {
+  "char": "君",
+  "frequency": "common",
+  "wuxing": "木",
+  "stroke": 7,
+  "pinyin": "jūn",
+  "tone": 1,
+  "radical": "口"
+ }
+}
